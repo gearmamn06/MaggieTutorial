@@ -5,6 +5,6 @@
       location = "group:NoSwiftUI/NoSwiftUI.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Chapter1/Chapter1.xcodeproj">
+      location = "group:/Users/pH500/Documents/sudo/MaggieTutorial/Chapter1/WithSwiftUI.xcodeproj">
    </FileRef>
 </Workspace>

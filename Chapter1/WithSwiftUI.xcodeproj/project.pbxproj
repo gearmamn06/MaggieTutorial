@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B296983234650E7004252FA /* Chapter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B296983234650E7004252FA /* WithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B296986234650E7004252FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B296988234650E7004252FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B29698A234650E7004252FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +27,7 @@
 		2B296993234650E7004252FA /* Chapter1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chapter1.entitlements; sourceTree = "<group>"; };
 		2B296999234853CB004252FA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2B29699B234854A0004252FA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2BDE31FF2349D3FD0020B01C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +46,14 @@
 			children = (
 				2B296985234650E7004252FA /* Chapter1 */,
 				2B296984234650E7004252FA /* Products */,
+				2BDE31FE2349D3FD0020B01C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2B296984234650E7004252FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B296983234650E7004252FA /* Chapter1.app */,
+				2B296983234650E7004252FA /* WithSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,12 +82,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2BDE31FE2349D3FD0020B01C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BDE31FF2349D3FD0020B01C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B296982234650E7004252FA /* Chapter1 */ = {
+		2B296982234650E7004252FA /* WithSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B296996234650E7004252FA /* Build configuration list for PBXNativeTarget "Chapter1" */;
+			buildConfigurationList = 2B296996234650E7004252FA /* Build configuration list for PBXNativeTarget "WithSwiftUI" */;
 			buildPhases = (
 				2B29697F234650E7004252FA /* Sources */,
 				2B296980234650E7004252FA /* Frameworks */,
@@ -95,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = Chapter1;
+			name = WithSwiftUI;
 			productName = Chapter1;
-			productReference = 2B296983234650E7004252FA /* Chapter1.app */;
+			productReference = 2B296983234650E7004252FA /* WithSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B29697E234650E7004252FA /* Build configuration list for PBXProject "Chapter1" */;
+			buildConfigurationList = 2B29697E234650E7004252FA /* Build configuration list for PBXProject "WithSwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B296982234650E7004252FA /* Chapter1 */,
+				2B296982234650E7004252FA /* WithSwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -334,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B29697E234650E7004252FA /* Build configuration list for PBXProject "Chapter1" */ = {
+		2B29697E234650E7004252FA /* Build configuration list for PBXProject "WithSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B296994234650E7004252FA /* Debug */,
@@ -343,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B296996234650E7004252FA /* Build configuration list for PBXNativeTarget "Chapter1" */ = {
+		2B296996234650E7004252FA /* Build configuration list for PBXNativeTarget "WithSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B296997234650E7004252FA /* Debug */,
