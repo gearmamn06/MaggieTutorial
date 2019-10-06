@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:NoSwiftUI/NoSwiftUI.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Chapter1/Chapter1.xcodeproj">
    </FileRef>
 </Workspace>
