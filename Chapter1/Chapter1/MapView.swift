@@ -32,13 +32,14 @@ import MapKit
 
 struct MapView: NSViewRepresentable {
     
+    var coordinate: CLLocationCoordinate2D
+    
     func makeNSView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
     
     func updateNSView(_ nsView: MKMapView, context: Context) {
-        let coordinate = CLLocationCoordinate2D(latitude: 34.0, longitude: -116.0)
-        let span = MKCoordinateSpan(latitudeDelta: 2.0, longitudeDelta: 2.0)
+        let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
         let region = MKCoordinateRegion(center: coordinate, span: span)
         nsView.setRegion(region, animated: true)
     }
@@ -46,6 +47,6 @@ struct MapView: NSViewRepresentable {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView()
+        MapView(coordinate: landmarkData[0].locationCoordinate)
     }
 }

@@ -10,20 +10,13 @@ import SwiftUI
 
 struct CircleImage: View {
     
-    let width: CGFloat
-    let height: CGFloat
+    
+    var image: Image
     
     // view에 생성자 이용방식 -> 기존이랑 똑같음
     
-    init(width: CGFloat = 200, height: CGFloat = 200) {
-        self.width = width
-        self.height = height
-    }
-    
     var body: some View {
-        Image("sample")
-            .frame(width: width, height: height)
-            .scaledToFit()
+        image
             .clipShape(Circle())
             .overlay(
                 Circle().stroke(Color.white, lineWidth: 4)
@@ -34,6 +27,6 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        CircleImage(image: Image("turtlerock"))
     }
 }
