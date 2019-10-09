@@ -5,6 +5,9 @@
       location = "container:"
       name = "NoSwiftUITutorials">
       <FileRef
+         location = "group:NoSwiftUITutorials/WIndows/WIndows.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:NoSwiftUITutorials/Menubars/Menubars.xcodeproj">
       </FileRef>
    </Group>
