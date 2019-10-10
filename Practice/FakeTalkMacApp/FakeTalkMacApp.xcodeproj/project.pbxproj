@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B44D509234F83A7006308C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D508234F83A7006308C8 /* AppDelegate.swift */; };
+		2B44D50B234F83A7006308C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D50A234F83A7006308C8 /* ViewController.swift */; };
+		2B44D50D234F83A8006308C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B44D50C234F83A8006308C8 /* Assets.xcassets */; };
+		2B44D510234F83A8006308C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B44D50E234F83A8006308C8 /* Main.storyboard */; };
+		2B44D51C234F83A8006308C8 /* FakeTalkMacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D51B234F83A8006308C8 /* FakeTalkMacAppTests.swift */; };
+		2B44D52E234F8496006308C8 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D52D234F8496006308C8 /* RxSwift */; };
+		2B44D530234F8496006308C8 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D52F234F8496006308C8 /* RxTest */; };
+		2B44D532234F8496006308C8 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D531234F8496006308C8 /* RxRelay */; };
+		2B44D534234F8496006308C8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D533234F8496006308C8 /* RxCocoa */; };
+		2B44D536234F8496006308C8 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D535234F8496006308C8 /* RxBlocking */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B44D518234F83A8006308C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B44D4FD234F83A6006308C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B44D504234F83A6006308C8;
+			remoteInfo = FakeTalkMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B44D505234F83A6006308C8 /* FakeTalkMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeTalkMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B44D508234F83A7006308C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B44D50A234F83A7006308C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B44D50C234F83A8006308C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B44D50F234F83A8006308C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B44D511234F83A8006308C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B44D512234F83A8006308C8 /* FakeTalkMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FakeTalkMacApp.entitlements; sourceTree = "<group>"; };
+		2B44D517234F83A8006308C8 /* FakeTalkMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakeTalkMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B44D51B234F83A8006308C8 /* FakeTalkMacAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTalkMacAppTests.swift; sourceTree = "<group>"; };
+		2B44D51D234F83A8006308C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B44D537234F84B5006308C8 /* Goals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Goals.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B44D502234F83A6006308C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44D534234F8496006308C8 /* RxCocoa in Frameworks */,
+				2B44D532234F8496006308C8 /* RxRelay in Frameworks */,
+				2B44D52E234F8496006308C8 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44D514234F83A8006308C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44D530234F8496006308C8 /* RxTest in Frameworks */,
+				2B44D536234F8496006308C8 /* RxBlocking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B44D4FC234F83A6006308C8 = {
+			isa = PBXGroup;
+			children = (
+				2B44D537234F84B5006308C8 /* Goals.md */,
+				2B44D507234F83A6006308C8 /* FakeTalkMacApp */,
+				2B44D51A234F83A8006308C8 /* FakeTalkMacAppTests */,
+				2B44D506234F83A6006308C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B44D506234F83A6006308C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B44D505234F83A6006308C8 /* FakeTalkMacApp.app */,
+				2B44D517234F83A8006308C8 /* FakeTalkMacAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B44D507234F83A6006308C8 /* FakeTalkMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				2B44D526234F83B2006308C8 /* Domain */,
+				2B44D528234F83C0006308C8 /* Features */,
+				2B44D508234F83A7006308C8 /* AppDelegate.swift */,
+				2B44D50A234F83A7006308C8 /* ViewController.swift */,
+				2B44D50C234F83A8006308C8 /* Assets.xcassets */,
+				2B44D50E234F83A8006308C8 /* Main.storyboard */,
+				2B44D511234F83A8006308C8 /* Info.plist */,
+				2B44D512234F83A8006308C8 /* FakeTalkMacApp.entitlements */,
+			);
+			path = FakeTalkMacApp;
+			sourceTree = "<group>";
+		};
+		2B44D51A234F83A8006308C8 /* FakeTalkMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B44D51B234F83A8006308C8 /* FakeTalkMacAppTests.swift */,
+				2B44D51D234F83A8006308C8 /* Info.plist */,
+			);
+			path = FakeTalkMacAppTests;
+			sourceTree = "<group>";
+		};
+		2B44D526234F83B2006308C8 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2B44D529234F8445006308C8 /* Entities */,
+				2B44D52B234F8452006308C8 /* UseCases */,
+				2B44D52A234F844A006308C8 /* Repositories */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2B44D528234F83C0006308C8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2B44D538234F87EF006308C8 /* members */,
+				2B44D539234F87FB006308C8 /* conversations */,
+				2B44D53A234F8803006308C8 /* settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2B44D529234F8445006308C8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2B44D52A234F844A006308C8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2B44D52B234F8452006308C8 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		2B44D538234F87EF006308C8 /* members */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = members;
+			sourceTree = "<group>";
+		};
+		2B44D539234F87FB006308C8 /* conversations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = conversations;
+			sourceTree = "<group>";
+		};
+		2B44D53A234F8803006308C8 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B44D504234F83A6006308C8 /* FakeTalkMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B44D520234F83A8006308C8 /* Build configuration list for PBXNativeTarget "FakeTalkMacApp" */;
+			buildPhases = (
+				2B44D501234F83A6006308C8 /* Sources */,
+				2B44D502234F83A6006308C8 /* Frameworks */,
+				2B44D503234F83A6006308C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeTalkMacApp;
+			packageProductDependencies = (
+				2B44D52D234F8496006308C8 /* RxSwift */,
+				2B44D531234F8496006308C8 /* RxRelay */,
+				2B44D533234F8496006308C8 /* RxCocoa */,
+			);
+			productName = FakeTalkMacApp;
+			productReference = 2B44D505234F83A6006308C8 /* FakeTalkMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B44D516234F83A8006308C8 /* FakeTalkMacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B44D523234F83A8006308C8 /* Build configuration list for PBXNativeTarget "FakeTalkMacAppTests" */;
+			buildPhases = (
+				2B44D513234F83A8006308C8 /* Sources */,
+				2B44D514234F83A8006308C8 /* Frameworks */,
+				2B44D515234F83A8006308C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B44D519234F83A8006308C8 /* PBXTargetDependency */,
+			);
+			name = FakeTalkMacAppTests;
+			packageProductDependencies = (
+				2B44D52F234F8496006308C8 /* RxTest */,
+				2B44D535234F8496006308C8 /* RxBlocking */,
+			);
+			productName = FakeTalkMacAppTests;
+			productReference = 2B44D517234F83A8006308C8 /* FakeTalkMacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B44D4FD234F83A6006308C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ParkHyunsoo;
+				TargetAttributes = {
+					2B44D504234F83A6006308C8 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					2B44D516234F83A8006308C8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 2B44D504234F83A6006308C8;
+					};
+				};
+			};
+			buildConfigurationList = 2B44D500234F83A6006308C8 /* Build configuration list for PBXProject "FakeTalkMacApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B44D4FC234F83A6006308C8;
+			packageReferences = (
+				2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = 2B44D506234F83A6006308C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B44D504234F83A6006308C8 /* FakeTalkMacApp */,
+				2B44D516234F83A8006308C8 /* FakeTalkMacAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B44D503234F83A6006308C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44D50D234F83A8006308C8 /* Assets.xcassets in Resources */,
+				2B44D510234F83A8006308C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44D515234F83A8006308C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B44D501234F83A6006308C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44D50B234F83A7006308C8 /* ViewController.swift in Sources */,
+				2B44D509234F83A7006308C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B44D513234F83A8006308C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B44D51C234F83A8006308C8 /* FakeTalkMacAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B44D519234F83A8006308C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B44D504234F83A6006308C8 /* FakeTalkMacApp */;
+			targetProxy = 2B44D518234F83A8006308C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B44D50E234F83A8006308C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B44D50F234F83A8006308C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B44D51E234F83A8006308C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B44D51F234F83A8006308C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2B44D521234F83A8006308C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FakeTalkMacApp/FakeTalkMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ABNASUGL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FakeTalkMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gearmamn06.FakeTalkMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B44D522234F83A8006308C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FakeTalkMacApp/FakeTalkMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ABNASUGL6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FakeTalkMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gearmamn06.FakeTalkMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B44D524234F83A8006308C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ABNASUGL6;
+				INFOPLIST_FILE = FakeTalkMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = gearmamn06.FakeTalkMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeTalkMacApp.app/Contents/MacOS/FakeTalkMacApp";
+			};
+			name = Debug;
+		};
+		2B44D525234F83A8006308C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2ABNASUGL6;
+				INFOPLIST_FILE = FakeTalkMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = gearmamn06.FakeTalkMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FakeTalkMacApp.app/Contents/MacOS/FakeTalkMacApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B44D500234F83A6006308C8 /* Build configuration list for PBXProject "FakeTalkMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B44D51E234F83A8006308C8 /* Debug */,
+				2B44D51F234F83A8006308C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B44D520234F83A8006308C8 /* Build configuration list for PBXNativeTarget "FakeTalkMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B44D521234F83A8006308C8 /* Debug */,
+				2B44D522234F83A8006308C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B44D523234F83A8006308C8 /* Build configuration list for PBXNativeTarget "FakeTalkMacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B44D524234F83A8006308C8 /* Debug */,
+				2B44D525234F83A8006308C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B44D52D234F8496006308C8 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		2B44D52F234F8496006308C8 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		2B44D531234F8496006308C8 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		2B44D533234F8496006308C8 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		2B44D535234F8496006308C8 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B44D52C234F8496006308C8 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2B44D4FD234F83A6006308C8 /* Project object */;
+}

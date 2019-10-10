@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "Practice">
+      <FileRef
+         location = "group:Practice/FakeTalkMacApp/FakeTalkMacApp.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "NoSwiftUITutorials">
       <FileRef
          location = "group:NoSwiftUITutorials/Menubars/Menubars.xcodeproj">
