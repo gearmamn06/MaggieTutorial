@@ -16,7 +16,7 @@ class Document: NSDocument {
     }
 
     override class var autosavesInPlace: Bool {
-        return true
+        return false
     }
 
     override func makeWindowControllers() {
@@ -26,12 +26,14 @@ class Document: NSDocument {
         self.addWindowController(windowController)
     }
 
+    // writing
     override func data(ofType typeName: String) throws -> Data {
         // Insert code here to write your document to data of the specified type, throwing an error in case of failure.
         // Alternatively, you could remove this method and override fileWrapper(ofType:), write(to:ofType:), or write(to:ofType:for:originalContentsURL:) instead.
         throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
     }
 
+    // loading
     override func read(from data: Data, ofType typeName: String) throws {
         // Insert code here to read your document from the given data of the specified type, throwing an error in case of failure.
         // Alternatively, you could remove this method and override read(from:ofType:) instead.
@@ -39,6 +41,13 @@ class Document: NSDocument {
         throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
     }
 
+    
+    override func save(withDelegate delegate: Any?, didSave didSaveSelector: Selector?, contextInfo: UnsafeMutableRawPointer?) {
+        let userInfo = [NSLocalizedDescriptionKey: "Sorry, no saving imple in this tutorial"]
+        let error = NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: userInfo)
+        let alert = NSAlert(error: error)
+        alert.runModal()
+    }
 
 }
 

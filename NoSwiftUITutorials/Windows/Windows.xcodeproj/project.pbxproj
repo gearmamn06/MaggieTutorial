@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6000B9234F6CC100E4E51D /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6000B8234F6CC100E4E51D /* WindowController.swift */; };
 		2B8EEAF7234E332200EA75FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EEAF6234E332200EA75FE /* AppDelegate.swift */; };
 		2B8EEAF9234E332200EA75FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EEAF8234E332200EA75FE /* ViewController.swift */; };
 		2B8EEAFB234E332200EA75FE /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EEAFA234E332200EA75FE /* Document.swift */; };
 		2B8EEAFD234E332300EA75FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EEAFC234E332300EA75FE /* Assets.xcassets */; };
 		2B8EEB00234E332300EA75FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EEAFE234E332300EA75FE /* Main.storyboard */; };
+		2B8EEB0A234E374A00EA75FE /* Hello.babyscript in Resources */ = {isa = PBXBuildFile; fileRef = 2B8EEB09234E374A00EA75FE /* Hello.babyscript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B6000B8234F6CC100E4E51D /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		2B8EEAF3234E332200EA75FE /* WIndows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WIndows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8EEAF6234E332200EA75FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B8EEAF8234E332200EA75FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		2B8EEB01234E332300EA75FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B8EEB02234E332300EA75FE /* WIndows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WIndows.entitlements; sourceTree = "<group>"; };
 		2B8EEB08234E332E00EA75FE /* Goals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Goals.md; sourceTree = "<group>"; };
+		2B8EEB09234E374A00EA75FE /* Hello.babyscript */ = {isa = PBXFileReference; lastKnownFileType = text; path = Hello.babyscript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				2B8EEB01234E332300EA75FE /* Info.plist */,
 				2B8EEB02234E332300EA75FE /* WIndows.entitlements */,
 				2B8EEB08234E332E00EA75FE /* Goals.md */,
+				2B8EEB09234E374A00EA75FE /* Hello.babyscript */,
+				2B6000B8234F6CC100E4E51D /* WindowController.swift */,
 			);
 			path = WIndows;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8EEB0A234E374A00EA75FE /* Hello.babyscript in Resources */,
 				2B8EEAFD234E332300EA75FE /* Assets.xcassets in Resources */,
 				2B8EEB00234E332300EA75FE /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8EEAF9234E332200EA75FE /* ViewController.swift in Sources */,
+				2B6000B9234F6CC100E4E51D /* WindowController.swift in Sources */,
 				2B8EEAF7234E332200EA75FE /* AppDelegate.swift in Sources */,
 				2B8EEAFB234E332200EA75FE /* Document.swift in Sources */,
 			);
