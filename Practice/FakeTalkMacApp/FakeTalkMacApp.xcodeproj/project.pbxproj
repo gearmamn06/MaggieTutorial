@@ -17,6 +17,12 @@
 		2B44D532234F8496006308C8 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D531234F8496006308C8 /* RxRelay */; };
 		2B44D534234F8496006308C8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D533234F8496006308C8 /* RxCocoa */; };
 		2B44D536234F8496006308C8 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 2B44D535234F8496006308C8 /* RxBlocking */; };
+		2B44D53C234F88E2006308C8 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D53B234F88E2006308C8 /* Members.swift */; };
+		2B44D53E234F88ED006308C8 /* ChatRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D53D234F88ED006308C8 /* ChatRooms.swift */; };
+		2B44D540234F88FA006308C8 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D53F234F88FA006308C8 /* ChatMessage.swift */; };
+		2B44D542234F8B93006308C8 /* SendBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D541234F8B93006308C8 /* SendBox.swift */; };
+		2B44D545234F938F006308C8 /* MemberRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D544234F938F006308C8 /* MemberRepository.swift */; };
+		2B44D549234F94A3006308C8 /* ChatRoomRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44D548234F94A3006308C8 /* ChatRoomRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,12 @@
 		2B44D51B234F83A8006308C8 /* FakeTalkMacAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTalkMacAppTests.swift; sourceTree = "<group>"; };
 		2B44D51D234F83A8006308C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B44D537234F84B5006308C8 /* Goals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Goals.md; sourceTree = "<group>"; };
+		2B44D53B234F88E2006308C8 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		2B44D53D234F88ED006308C8 /* ChatRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRooms.swift; sourceTree = "<group>"; };
+		2B44D53F234F88FA006308C8 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		2B44D541234F8B93006308C8 /* SendBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBox.swift; sourceTree = "<group>"; };
+		2B44D544234F938F006308C8 /* MemberRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRepository.swift; sourceTree = "<group>"; };
+		2B44D548234F94A3006308C8 /* ChatRoomRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,7 @@
 		2B44D507234F83A6006308C8 /* FakeTalkMacApp */ = {
 			isa = PBXGroup;
 			children = (
+				2B44D543234F9314006308C8 /* Resources */,
 				2B44D526234F83B2006308C8 /* Domain */,
 				2B44D528234F83C0006308C8 /* Features */,
 				2B44D508234F83A7006308C8 /* AppDelegate.swift */,
@@ -113,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				2B44D529234F8445006308C8 /* Entities */,
-				2B44D52B234F8452006308C8 /* UseCases */,
 				2B44D52A234F844A006308C8 /* Repositories */,
 			);
 			path = Domain;
@@ -132,6 +144,10 @@
 		2B44D529234F8445006308C8 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				2B44D53B234F88E2006308C8 /* Members.swift */,
+				2B44D53D234F88ED006308C8 /* ChatRooms.swift */,
+				2B44D53F234F88FA006308C8 /* ChatMessage.swift */,
+				2B44D541234F8B93006308C8 /* SendBox.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -139,15 +155,10 @@
 		2B44D52A234F844A006308C8 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				2B44D544234F938F006308C8 /* MemberRepository.swift */,
+				2B44D548234F94A3006308C8 /* ChatRoomRepository.swift */,
 			);
 			path = Repositories;
-			sourceTree = "<group>";
-		};
-		2B44D52B234F8452006308C8 /* UseCases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UseCases;
 			sourceTree = "<group>";
 		};
 		2B44D538234F87EF006308C8 /* members */ = {
@@ -169,6 +180,13 @@
 			children = (
 			);
 			path = settings;
+			sourceTree = "<group>";
+		};
+		2B44D543234F9314006308C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B44D549234F94A3006308C8 /* ChatRoomRepository.swift in Sources */,
+				2B44D53C234F88E2006308C8 /* Members.swift in Sources */,
 				2B44D50B234F83A7006308C8 /* ViewController.swift in Sources */,
+				2B44D53E234F88ED006308C8 /* ChatRooms.swift in Sources */,
+				2B44D540234F88FA006308C8 /* ChatMessage.swift in Sources */,
 				2B44D509234F83A7006308C8 /* AppDelegate.swift in Sources */,
+				2B44D545234F938F006308C8 /* MemberRepository.swift in Sources */,
+				2B44D542234F8B93006308C8 /* SendBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
