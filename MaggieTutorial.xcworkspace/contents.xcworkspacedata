@@ -5,6 +5,9 @@
       location = "container:"
       name = "Tutorial2">
       <FileRef
+         location = "group:Tutorial2/P2_CowsAndBulls/P2_CowsAndBulls.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Tutorial2/P1_StormViewer/P1_StormViewer.xcodeproj">
       </FileRef>
    </Group>
