@@ -5,6 +5,9 @@
       location = "container:"
       name = "Tutorial2">
       <FileRef
+         location = "group:Tutorial2/P4_GridBrowser/P4_GridBrowser.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:../fork_repo/ListenTude/P3_SocialMedia/P3_SocialMedia.xcodeproj">
       </FileRef>
       <FileRef
